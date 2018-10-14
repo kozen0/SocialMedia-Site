@@ -6,6 +6,12 @@ html {
     font-family: sans-serif;
 }
 
+a {
+    text-decoration: none;
+}
+/*
+//////////////////(((HEADER)))//////////////////////
+*/
 header {
     background: #385998;
     padding: 20px;
@@ -86,4 +92,56 @@ header .search-area {
 
 header .search-area ul li {
     display: inline-block;
+}
+/*
+//////////////////////(((TOP AREA)))////////////////
+*/
+
+#top-area {
+   padding: 120px 15px 30px 15px;
+   background: url(/img/blueberry.jpg) no-repeat center center; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#top-area .profile-info .user-img {
+    padding: 20px;
+    display: inline-block;
+}
+
+#top-area .profile-info .user-img img {
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+}
+
+#top-area .profile-info .user-details { 
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 50px;
+}
+
+#top-area .profile-info .user-details h3 { 
+    color: white;
+    font-size: 21px;
+    margin-bottom: 15px;
+}
+
+#top-area .profile-info .user-details a { 
+    color: white;
+    margin-right: -4px;
+    background: rgba(255, 255, 255, .3);
+    width: 45%;
+    text-align: center;
+    padding: 8px;
+    margin-right: 5%;
+    font-size: 10px;
+    text-transform: uppercase;
+    border-radius: 3px;
+}
+
+#top-area .profile-info .user-details a:hover { 
+    background: #2196f3;
 }
