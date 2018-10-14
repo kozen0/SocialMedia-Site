@@ -99,7 +99,7 @@ header .search-area ul li {
 
 #top-area {
    padding: 120px 15px 30px 15px;
-   background: url(SocialMedia-Site/img/blueberry.jpg) no-repeat center center !important; 
+   background: url(SocialMedia-Site/img/blueberry.jpg) no-repeat center center; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
