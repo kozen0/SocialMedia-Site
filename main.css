@@ -146,3 +146,17 @@ header .search-area ul li {
 #top-area .profile-info .user-details a:hover { 
     background: #2196f3;
 }
+/*
+//////////////////////(((CONTENT AREA)))////////////////
+*/
+#content-area .side-column {
+    width: 35%;
+    margin: 0 2.5%;
+    float: left;
+}
+
+#content-area .main-area {
+    width: 55%;
+    margin: 0 2.5%;
+    float: left;
+}
