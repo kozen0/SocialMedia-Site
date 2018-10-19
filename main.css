@@ -209,3 +209,40 @@ header .search-area ul li {
     margin: 0 2.5%;
     float: left;
 }
+
+#content-area .main-area .submenu{
+    padding: 0;
+    margin: 0;
+    padding-top: 12px;
+    padding-left: 15px;
+    margin-bottom: 15px;
+}
+
+#content-area .main-area .submenu ul li{
+    display: inline-block;
+    width: 20%;
+    float: left;
+    text-align: center;
+    border-bottom: 3px solid white;
+    transition: all .4s ease-in-out;
+}
+
+#content-area .main-area .submenu ul li:hover{
+    color: #2196f3;
+
+}
+
+#content-area .main-area .submenu ul li:nth-child(5){
+    padding: 10px;
+}
+
+#content-area .main-area .submenu ul li span{
+    display: block;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#content-area .main-area .submenu ul li:hover {
+    border-bottom: 3px solid #2196f3;
+
+}
