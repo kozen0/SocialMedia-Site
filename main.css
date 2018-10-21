@@ -402,8 +402,8 @@ header .search-area ul li {
     width: 89%;
     float: right;
     margin-top: 15px;
+    overflow: hidden;
     border-bottom: 2px gray solid;
-    overflow: auto;
 }
 
 #content-area .main-area .widget-box.post .body .post-write-comment input {
@@ -418,6 +418,7 @@ header .search-area ul li {
     float: right;
     padding: 0;
     margin: 0;
+    overflow: hidden;
 }
 
 #content-area .main-area .widget-box.post .body .post-write-comment ul li
