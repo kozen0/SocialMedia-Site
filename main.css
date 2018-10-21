@@ -15,6 +15,12 @@ body {
     max-width: 970px;
     margin: 0 auto;
 }
+
+.image-spaces {
+    margin: 0.6%;
+    max-height: 30%;
+    max-width: 31.33%;
+}
 /*
 //////////////////(((HEADER)))//////////////////////
 */
@@ -184,6 +190,12 @@ header .search-area ul li {
     padding: 15px 0;
 }
 
+#content-area .widget-box.intro .body p {
+    font-size: 11px;
+    color: dimgray;
+    padding-top: 5px;
+}
+
 #content-area .widget-box .head .widget-img {
     background: #BFBFBF;
     height: 40px;
@@ -313,7 +325,7 @@ header .search-area ul li {
 }
 
 #content-area .main-area .widget-box.post .body .post-bg-image {
-    background: url(bg.jpg) no-repeat center center; 
+    background: url(snow.jpg) no-repeat center center; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
