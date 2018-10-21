@@ -8,6 +8,12 @@ html {
 
 a {
     text-decoration: none;
+    color: #2196f3;
+}
+
+body {
+    max-width: 970px;
+    margin: 0 auto;
 }
 /*
 //////////////////(((HEADER)))//////////////////////
@@ -151,7 +157,7 @@ header .search-area ul li {
 */
 
 #content-area {
-    margin: 50px 0;
+    padding: 40px 0;
     overflow: auto;
     background: #FAFAFA;
 }
@@ -203,11 +209,12 @@ header .search-area ul li {
     font-size: 20px;
 }
 
-
+/*////////main-content-area_submenu///////////*/
 #content-area .main-area {
     width: 55%;
     margin: 0 2.5%;
     float: left;
+    max-width: 580px;
 }
 
 #content-area .main-area .submenu{
@@ -245,4 +252,176 @@ header .search-area ul li {
 #content-area .main-area .submenu ul li:hover {
     border-bottom: 3px solid #2196f3;
 
+}
+
+/*////////main-content-area_post///////////*/
+
+#content-area .main-area .widget-box.post .body  {
+    padding: 0;
+    padding-top: 10px;
+    overflow: hidden;
+}
+
+#content-area .main-area .widget-box.post  {
+    padding-bottom: 0;
+    padding: 0;
+}
+
+#content-area .main-area .widget-box.post .head  {
+    padding-bottom: 0;
+    padding: 10px 15px 0 15px;
+}
+
+#content-area .main-area .widget-box.post .head .post-user-img {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%; 
+    background: url(user-image.jpeg) no-repeat center center; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    overflow: hidden;
+}
+
+#content-area .main-area .widget-box.post .head .post-user-img {
+    display: inline-block;
+}
+
+#content-area .main-area .widget-box.post .head .post-info {
+    display: inline-block;
+    width: 85%;
+    padding: 5px 0 0 3px;
+    margin: 0;
+    vertical-align: top;
+}
+
+#content-area .main-area .widget-box.post .head .post-info {
+    display: inline-block;
+}
+
+#content-area .main-area .widget-box.post .head .post-info p {
+    color: dimgrey;
+    padding-top: 5px;
+}
+
+#content-area .main-area .widget-box.post .head .post-icon {
+    display: inline-block;
+    position: relative;
+    left: 10%;
+    top: 15px;
+}
+
+#content-area .main-area .widget-box.post .body .post-bg-image {
+    background: url(bg.jpg) no-repeat center center; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    overflow: hidden;
+    height: 330px;
+}
+
+#content-area .main-area .widget-box.post .body .post-share-status {
+    padding: 10px 15px 10px 15px;
+    color: dimgrey;
+}
+
+#content-area .main-area .widget-box.post .body .status-s1 {
+    display: inline-block;
+}
+
+#content-area .main-area .widget-box.post .body .status-s1 ul li {
+    display: inline-block;
+    padding-right: 15px;
+}
+
+#content-area .main-area .widget-box.post .body .status-s2 {
+    display: inline-block;
+    float: right;
+}
+
+#content-area .main-area .widget-box.post .body .post-comment{
+   background-color: #bfbfBdBd;
+    overflow: auto;
+}
+
+#content-area .main-area .widget-box.post .body .post-comment .post-comment-img {
+    display: inline-block;
+    width: 10%;
+    padding: 5px;
+}
+
+#content-area .main-area .widget-box.post .body .post-comment .post-comment-img img{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+}
+
+#content-area .main-area .widget-box.post .body .post-comment .post-comment-message{
+    display: inline-block;
+    width: 90%;
+    padding: 10px;
+    float: right;
+}
+
+#content-area .main-area .widget-box.post .body .post-comment .post-comment-name{
+    padding-bottom: 7px;
+}
+
+#content-area .main-area .widget-box.post .body .post-comment .post-comment-name ul li{
+    display: inline-block;
+}
+
+#content-area .main-area .widget-box.post .body .post-comment .post-comment-name ul li:nth-last-child(1){
+    float: right;
+}
+
+#content-area .main-area .widget-box.post .body .post-comment p{
+    color: dimgray;
+}
+
+#content-area .main-area .widget-box.post .body .post-write-comment{
+    overflow: hidden;
+    padding: 10px;
+}
+
+#content-area .main-area .widget-box.post .body .post-write-comment .post-write-comment-img{
+    display: inline-block;
+    float: left;
+}
+
+#content-area .main-area .widget-box.post .body .post-write-comment .post-write-comment-img img{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+}
+
+#content-area .main-area .widget-box.post .body .post-write-comment .post-write-comment-text {
+    display: inline-block;
+    width: 89%;
+    float: right;
+    margin-top: 15px;
+    border-bottom: 2px gray solid;
+    overflow: auto;
+}
+
+#content-area .main-area .widget-box.post .body .post-write-comment input {
+    display: inline-block;
+    border: none;
+    padding-left: 10px;
+}
+
+#content-area .main-area .widget-box.post .body .post-write-comment ul
+{
+    display: inline-block;
+    float: right;
+    padding: 0;
+    margin: 0;
+}
+
+#content-area .main-area .widget-box.post .body .post-write-comment ul li
+{
+    display: inline-block;
+    padding-right: 10px;
 }
